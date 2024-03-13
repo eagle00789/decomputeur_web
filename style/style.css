@@ -39,3 +39,15 @@ a:visited {
   color: yellow;
   text-decoration-color: hotpink;
 }
+
+.outerdiv {
+  width:100%;
+  height:60px;
+}
+
+.menudiv {
+  float:left;
+  padding:0px 5px;
+  margin:0 8px 8px 0px;
+  height: 79vh;
+}
