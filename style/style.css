@@ -46,8 +46,78 @@ a:visited {
 }
 
 .menudiv {
-  float:left;
-  padding:0px 5px;
-  margin:0 8px 8px 0px;
+  float: left;
+  padding: 0px 5px;
+  width: 160px;
+  margin: 0 8px 8px 5px;
   height: 79vh;
 }
+
+#divMenu, ul, li, li li {  
+  margin: 0;  
+  padding: 0;  
+}  
+ 
+#divMenu {  
+  width: 150px;  
+  height: 79vh;  
+  padding: 7px;
+}  
+ 
+#divMenu ul  
+{  
+   line-height: 25px;  
+}  
+ 
+  #divMenu li {  
+      list-style: none;  
+      position: relative;  
+      background: gray;  
+  }  
+ 
+      #divMenu li li {  
+          list-style: none;  
+          position: relative;  
+          background: gray;  
+          left: 148px;  
+          top: -27px;  
+      }  
+ 
+ 
+  #divMenu ul li a {  
+      width: 148px;  
+      height: 25px;  
+      display: block;  
+      text-decoration: none;  
+      text-align: center;  
+      font-family: Georgia,'Times New Roman',serif;  
+      color:#ffffff;  
+      border:1px solid #eee;  
+  }  
+ 
+  #divMenu ul ul {  
+      position: absolute;  
+      visibility: hidden;  
+      top: 27px;  
+  }  
+ 
+  #divMenu ul li:hover ul {  
+      visibility: visible;
+      color: black !important;  
+  }  
+ 
+  #divMenu li:hover {  
+      background-color: lightgray;
+      color: black !important;  
+  }  
+ 
+  #divMenu ul li:hover ul li a:hover {  
+    background-color: lightgray;
+    color: black !important;   
+  }  
+ 
+  #divMenu a:hover {  
+      font-weight: bold;
+      color: black !important;   
+  } 
+
