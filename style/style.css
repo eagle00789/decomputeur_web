@@ -27,6 +27,7 @@ img[src$=".svg"] {
   bottom: 0;
   height: 30px;
   padding-top: 3px;
+  color: black;
 }
 
 a {
